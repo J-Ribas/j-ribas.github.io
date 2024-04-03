@@ -9,7 +9,7 @@ function Terminal(props) {
   setInterval(() => {
     let today = new Date();
     /** UNIX Timestamp of my birthday on the portuguese timezone (to fix issue on the 6th of december with age showing incorrectly) */
-    let birthDate = new Date(1070668800000);
+    let birthDate = new Date(1058680800);
     let millisecondsPerYear = 1000 * 60 * 60 * 24 * 365.25;
     setAge(
       ((today - birthDate) / millisecondsPerYear).toString().substring(0, 2)
