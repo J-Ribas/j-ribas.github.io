@@ -4,13 +4,13 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "bernardo",
+  title: "Ribas",
   description: ":3",
   openGraph: {
-    title: "bernardo",
+    title: "Ribas",
     description: ":3",
-    url: "helloimbernardo.github.io",
-    siteName: "bernardo",
+    url: "j-ribas.github.io",
+    siteName: "Ribas",
     images: [
       {
         url: "https://helloimbernardo.github.io/og.png",
