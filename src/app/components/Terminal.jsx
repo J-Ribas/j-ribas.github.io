@@ -51,7 +51,7 @@ function Terminal(props) {
         </Line>
         <Line>
           This site and other Open-Source projects at{" "}
-          <Link url="https://github.com/helloimbernardo" color="orange" bold>
+          <Link url="https://github.com/j-ribas" color="orange" bold>
             github.com/helloimbernardo
           </Link>
         </Line>
