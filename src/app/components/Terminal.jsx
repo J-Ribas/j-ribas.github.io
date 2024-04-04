@@ -40,7 +40,7 @@ function Terminal(props) {
             📸instagram
           </Link>{" "}
           <Link url="https://twitter.com/J_Ribas_" color="purple" bold>
-            📱twitter
+            📱twitter
           </Link>{" "}
           <Link url="https://flickr.com/helloimbernardo" color="pink" bold>
             🖼️flickr
