@@ -37,13 +37,13 @@ function Terminal(props) {
         <Line>
           You can find me on: <br />
           <Link url="https://instagram.com/joaribas" color="green" bold>
-            ✍️instagram
+            📸instagram
           </Link>{" "}
           <Link url="https://twitter.com/J_Ribas_" color="purple" bold>
-            📱twitter
+            📱twitter
           </Link>{" "}
           <Link url="https://flickr.com/helloimbernardo" color="pink" bold>
-            📸flickr
+            🖼️flickr
           </Link>{" "}
           <Link url="https://findpenguins.com/bernardo" color="blue" bold>
             ✈️find penguins
