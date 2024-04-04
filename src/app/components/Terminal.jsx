@@ -36,8 +36,8 @@ function Terminal(props) {
         </Line>
         <Line>
           You can find me on: <br />
-          <Link url="https://tumblr.com/helloimbernardo" color="green" bold>
-            ✍️tumblr
+          <Link url="https://instagram.com/joaribas" color="green" bold>
+            ✍️instagram
           </Link>{" "}
           <Link url="https://twitter.com/J_Ribas_" color="purple" bold>
             📱twitter
