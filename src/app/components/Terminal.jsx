@@ -29,10 +29,7 @@ function Terminal(props) {
         </p>
         <br />
         <Line> 
-          Hello, I&apos;m <b>bernardo</b>
-          <Link url="https://pronoun.gdn/they?or=she&or=he" color="teal">
-            <sub>(any pronouns)</sub>
-          </Link>
+          Hello, I&apos;m <b>João Ribas</b>
         </Line>
         <Line>
           A {age}.{milliseconds} year old dev student.
