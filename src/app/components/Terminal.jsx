@@ -8,7 +8,7 @@ function Terminal(props) {
   const [milliseconds, setMilliseconds] = useState();
   setInterval(() => {
     let today = new Date();
-    /** UNIX Timestamp of my birthday on the portuguese timezone (to fix issue on the 6th of december with age showing incorrectly) */
+    /** UNIX Timestamp of my birthday on the portuguese timezone */
     let birthDate = new Date(1058724000000);
     let millisecondsPerYear = 1000 * 60 * 60 * 24 * 365.25;
     setAge(
@@ -23,7 +23,7 @@ function Terminal(props) {
     <Window windowName="Terminal">
       <span className="p-4">
         <p className="ml-2 font-mono pb-2">
-          <span className="text-green-400">bernardo@helloimbernardo</span>
+          <span className="text-green-400">joao@ribas</span>
           <span className="text-gray-400">:~$</span>{" "}
           <span className="text-white"> init</span>
         </p>
