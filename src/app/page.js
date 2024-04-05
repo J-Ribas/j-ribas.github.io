@@ -4,12 +4,7 @@ import Terminal from './components/Terminal';
 
 function selectWallpaper() {
   let names = [
-    "backpack",
-    "louvre",
-    "malaga",
-    "parismetro1",
-    "parismetro2",
-    "vienna",
+    "carro",
   ];
   return `bg-${names[Math.floor(Math.random() * names.length)]}`;
 }
