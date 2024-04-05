@@ -41,12 +41,6 @@ function Terminal(props) {
           </Link>{" "}
           <Link url="https://twitter.com/J_Ribas_" color="purple" bold>
             📱twitter
-          </Link>{" "}
-          <Link url="https://flickr.com/helloimbernardo" color="pink" bold>
-            🖼️flickr
-          </Link>{" "}
-          <Link url="https://findpenguins.com/bernardo" color="blue" bold>
-            ✈️find penguins
           </Link>
         </Line>
         <Line>
