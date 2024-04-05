@@ -5,7 +5,10 @@ import Terminal from './components/Terminal';
 function selectWallpaper() {
   let names = [
     "carro",
-    //"ponte",
+    "ponte",
+    "outro1",
+    "porto1",
+    "porto2",
   ];
   return `bg-${names[Math.floor(Math.random() * names.length)]}`;
 }
