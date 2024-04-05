@@ -55,6 +55,12 @@ function Terminal(props) {
             github.com/j-ribas
           </Link>
         </Line>
+        <line>
+          My website colection here{" "}
+          <link url="https://j-ribas.github.io/website" color="orange" bold>
+          github.com/j-ribas/website
+          </link>
+        </line>
       </span>
     </Window>
   );
