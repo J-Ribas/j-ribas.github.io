@@ -36,10 +36,10 @@ function Terminal(props) {
         </Line>
         <Line>
           You can find me on: <br />
-          <Link url="https://instagram.com/joaribas" color="green" bold>
+          <Link url="https://instagram.com/joaribas" color="red" bold>
             📸instagram
           </Link>{" "}
-          <Link url="https://twitter.com/J_Ribas_" color="purple" bold>
+          <Link url="https://twitter.com/J_Ribas_" color="blue" bold>
             📱twitter
           </Link>
         </Line>
@@ -51,7 +51,7 @@ function Terminal(props) {
         </Line>
         <Line>
           My website colection here{" "}
-          <Link url="https://j-ribas.github.io/website" color="orange" bold>
+          <Link url="https://j-ribas.github.io/website" color="green" bold>
           github.com/j-ribas/website
           </Link>
         </Line>
@@ -88,6 +88,7 @@ function Link(props) {
     pink: "text-pink-500",
     purple: "text-purple-500",
     green: "text-green-500",
+    red:"text-red-500",
   };
   return (
     <a href={props.url} className={`${colors[props.color]} ${props.className}`}>
