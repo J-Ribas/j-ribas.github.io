@@ -23,7 +23,7 @@ function Terminal(props) {
     <Window windowName="Terminal">
       <span className="p-4">
         <p className="ml-2 font-mono pb-2">
-          <span className="text-green-400">joao@ribas</span>
+          <span className="text-yellow-500">joao@ribas</span>
           <span className="text-gray-400">:~$</span>{" "}
           <span className="text-white"> init</span>
         </p>
@@ -89,6 +89,7 @@ function Link(props) {
     purple: "text-purple-500",
     green: "text-green-500",
     red:"text-red-500",
+    yellow: "text-yellow-500",
   };
   return (
     <a href={props.url} className={`${colors[props.color]} ${props.className}`}>
