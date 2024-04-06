@@ -1,6 +1,6 @@
 "use client";
 
-//import Window from "./Window";
+import Window from "./Window";
 import { useState } from "react";
 
 function Terminal(props) {
@@ -20,7 +20,7 @@ function Terminal(props) {
   }, 50);
 
   return (
-    //<Window windowName="Terminal">
+    <Window windowName="Terminal">
       <span className="p-4">
         <p className="ml-2 font-mono pb-2">
           <span className="text-yellow-500">joao@ribas</span>
@@ -56,7 +56,7 @@ function Terminal(props) {
           </Link>
         </Line>
       </span>
-   // </Window>
+    </Window>
   );
 }
 
