@@ -51,7 +51,7 @@ function Terminal(props) {
         </Line>
         <Line>
           My website colection here{" "}
-          <Link url="https://j-ribas.github.io/website" color="green" bold>
+          <Link href="https://j-ribas.github.io/website" color="green" bold>
           github.com/j-ribas/website
           </Link>
         </Line>
