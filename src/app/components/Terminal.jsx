@@ -54,6 +54,7 @@ function Terminal(props) {
           <Link url="https://j-ribas.github.io/website" color="green" bold>
           github.com/j-ribas/website
           </Link>
+          <a href="https://j-ribas.github.io/website" target="_blank">Visite o nosso site</a>
         </Line>
       </span>
     </Window>
