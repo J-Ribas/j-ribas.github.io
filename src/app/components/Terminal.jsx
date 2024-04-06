@@ -1,6 +1,6 @@
 "use client";
 
-import Window from "./Window";
+//import Window from "./Window";
 import { useState } from "react";
 
 function Terminal(props) {
