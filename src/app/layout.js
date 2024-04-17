@@ -13,10 +13,10 @@ export const metadata = {
     siteName: "Ribas",
     images: [
       {
-        url: "https://helloimbernardo.github.io/og.png",
+        url: "https://j-ribas.github.io/og.png",
         width: 1920,
         height: 1080,
-        alt: 'Terminal window saying "Hello, I\'m bernardo"',
+        alt: 'Terminal window saying "Hello, I\'m joao"',
       },
     ],
     locale: "en_US",
@@ -29,7 +29,7 @@ export const metadata = {
     creator: "@helloimbernardo",
     creatorId: "1145366758376841216",
     images: {
-      url: "https://helloimbernardo.github.io/og.png",
+      url: "https://j-ribas.github.io/og.png",
       alt: 'Terminal window saying "Hello, I\'m bernardo"',
     },
   },
